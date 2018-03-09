@@ -1,0 +1,99 @@
+package view.ButtonView;
+
+import bean.Order;
+import bean.User;
+import controll.BusinessService;
+import view.OrderView.HomeOrderView;
+import view.OrderView.ProcessOrderView;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+
+/**
+ * Created by admin on 2017/6/13.
+ */
+public class homePageButtonView extends JPanel{
+
+    JLabel BackGro;
+    BusinessService business  = new BusinessService();
+
+    public homePageButtonView(User user){
+        JPanel big = new JPanel();
+        JPanel little = panelTable(user);
+
+        BackGro = new JLabel(new ImageIcon("image/no.png"));
+        BackGro.setOpaque(false);//最底层
+        BackGro.setBounds(0,0,1000,490);
+
+        JButton process = new JButton("接受订单");
+
+        process.setBounds(450,300,100,35);
+        little.setBounds(20,80,600,400);
+        big.setBounds(0,0,1000,490);
+//
+//
+        big.add(little);
+        big.add(process);
+        //big.add(BackGro);
+
+        add(big);
+
+        process.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                HomeOrderView home = new  HomeOrderView(user);
+                home.setVisible(true);
+
+            }
+        });
+
+    }
+
+
+
+    JPanel panelTable (User user){
+        JPanel little = new JPanel(new GridLayout(1,2));
+        JTable table=new JTable();
+        BackGro = new JLabel(new ImageIcon("image/no.png"));
+        BackGro.setOpaque(false);//最底层
+        BackGro.setBounds(0,0,300,300);
+
+
+        ArrayList<Order> list = business.getStateList("未接单");
+
+
+        String[] headers={"订单ID ","订单信息","订单佣金","订单状态"};
+        Object[][] cellData=null;
+        DefaultTableModel model = new DefaultTableModel(cellData, headers) {
+            public boolean isCellEditable(int row, int column) {
+                return false;
+            }
+        };
+        table =new JTable(model);
+
+        DefaultTableModel tm=(DefaultTableModel)table.getModel();
+
+        for(Order o:list){
+            Object[] a=new Object[]{o.getId(),o.getOrderName(),o.getReward(),o.getState()};
+            tm.addRow(a);
+        }
+
+        table.getColumnModel().getColumn(0).setPreferredWidth(235);
+        table.getColumnModel().getColumn(1).setPreferredWidth(230);
+        table.getColumnModel().getColumn(2).setPreferredWidth(68);
+        table.getColumnModel().getColumn(3).setPreferredWidth(68);
+        JScrollPane scrollPane = new JScrollPane(table);
+        table.setPreferredScrollableViewportSize(new Dimension(600, 400));
+        little.add(scrollPane);
+
+        validate();
+        setVisible(true);
+
+
+        return little;
+    }
+}
