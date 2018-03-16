@@ -94,10 +94,6 @@
               <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="false" />
-                <element signature="e#2660#4285#0" expanded="false" />
-                <element signature="e#4284#4285#0" expanded="false" />
-                <element signature="e#4346#4591#0" expanded="false" />
-                <element signature="e#4590#4591#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -106,9 +102,15 @@
       <file leaf-file-name="AddMoneyView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/AddMoneyView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
+            <state relative-caret-position="943">
               <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1756#1985#0" expanded="false" />
+                <element signature="e#1984#1985#0" expanded="false" />
+                <element signature="e#2037#3008#0" expanded="false" />
+                <element signature="e#3007#3008#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,9 +118,15 @@
       <file leaf-file-name="ChangePasswordView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/ChangePasswordView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
+            <state relative-caret-position="2024">
               <caret line="100" column="58" lean-forward="false" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2435#2659#0" expanded="false" />
+                <element signature="e#2658#2659#0" expanded="false" />
+                <element signature="e#2719#4031#0" expanded="false" />
+                <element signature="e#4030#4031#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,9 +148,15 @@
       <file leaf-file-name="WithdrowView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/WithdrowView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="90" column="53" lean-forward="true" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
-              <folding />
+            <state relative-caret-position="1771">
+              <caret line="90" column="53" lean-forward="false" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1793#2021#0" expanded="false" />
+                <element signature="e#2020#2021#0" expanded="false" />
+                <element signature="e#2073#3348#0" expanded="false" />
+                <element signature="e#3347#3348#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -367,6 +381,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -467,9 +482,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1065,6 +1079,7 @@
       <workItem from="1520669473332" duration="2033000" />
       <workItem from="1520741380208" duration="1256000" />
       <workItem from="1520752502493" duration="618000" />
+      <workItem from="1521194045593" duration="205000" />
     </task>
     <servers />
   </component>
@@ -1101,7 +1116,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228210000" />
+    <option name="totallyTimeSpent" value="228415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1113,8 +1128,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1752,9 +1766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1878,10 +1889,6 @@
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#2660#4285#0" expanded="false" />
-            <element signature="e#4284#4285#0" expanded="false" />
-            <element signature="e#4346#4591#0" expanded="false" />
-            <element signature="e#4590#4591#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1931,25 +1938,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/WithdrowView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="90" column="53" lean-forward="true" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="1771">
+          <caret line="90" column="53" lean-forward="false" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1793#2021#0" expanded="false" />
+            <element signature="e#2020#2021#0" expanded="false" />
+            <element signature="e#2073#3348#0" expanded="false" />
+            <element signature="e#3347#3348#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/AddMoneyView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
+        <state relative-caret-position="943">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1756#1985#0" expanded="false" />
+            <element signature="e#1984#1985#0" expanded="false" />
+            <element signature="e#2037#3008#0" expanded="false" />
+            <element signature="e#3007#3008#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/ChangePasswordView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
+        <state relative-caret-position="2024">
           <caret line="100" column="58" lean-forward="false" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2435#2659#0" expanded="false" />
+            <element signature="e#2658#2659#0" expanded="false" />
+            <element signature="e#2719#4031#0" expanded="false" />
+            <element signature="e#4030#4031#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
