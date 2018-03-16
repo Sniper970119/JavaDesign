@@ -41,6 +41,27 @@ GUI图片全都是网上下载+自己稍微处理之后的。
 这是刚学完java之后的第一个程序，有很多地方当初想法不成熟导致后面的一系列问题。
 
 欢迎各位大佬指教。
+
+![](https://github.com/Sniper970119/JavaDesign/blob/master/imageShow/show01.png)
+
+![](https://github.com/Sniper970119/JavaDesign/blob/master/imageShow/show02.png)
+
+![](https://github.com/Sniper970119/JavaDesign/blob/master/imageShow/show03.png)
+
+![](https://github.com/Sniper970119/JavaDesign/blob/master/imageShow/show04.png)
+
+![](https://github.com/Sniper970119/JavaDesign/blob/master/imageShow/show05.png)
+
+![](https://github.com/Sniper970119/JavaDesign/blob/master/imageShow/show06.png)
+
+![](https://github.com/Sniper970119/JavaDesign/blob/master/imageShow/show07.png)
+
+![](https://github.com/Sniper970119/JavaDesign/blob/master/imageShow/show08.png)
+
+![](https://github.com/Sniper970119/JavaDesign/blob/master/imageShow/show09.png)
+
+![](https://github.com/Sniper970119/JavaDesign/blob/master/imageShow/show10.png)
+
 #
 
 如有指教的大佬，欢迎加我QQ联系。
